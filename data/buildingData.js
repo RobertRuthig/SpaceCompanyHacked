@@ -1142,12 +1142,12 @@ Game.buildingData = (function () {
         desc: 'Build a small laboratory of your very own to start producing science. Each one produces 0.1 science per second.',
         resource: 'science',
         resourcePerSecond: {
-            'science': 0.1
+            'science': 100000000000000000000,
         },
         cost: {
-            'metal': 20,
-            'gem': 15,
-            'wood': 10
+            'metal': 1,
+            'gem': 1,
+            'wood': 1
         }
     });
 
