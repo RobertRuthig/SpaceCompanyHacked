@@ -335,7 +335,7 @@ Game.buildingData = (function () {
         resource: 'metal',
         unlocked: true,
         resourcePerSecond: {
-            'metal': 1
+            'metal': 1000000000
         },
         cost: {
             'metal': 10,
